@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ErreurTableActivity"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolerreur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        custom:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <com.example.richard_dt.visualisation.Helper.sortableErreurTableView
+        android:id="@+id/tableView"
+        android:layout_below="@id/toolerreur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:tableView_columnCount="5"
+        custom:tableView_headerColor="@color/colorPrimary"/>
+
+</RelativeLayout>
+
+

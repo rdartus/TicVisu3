@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f8b552</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="eventProblem">#F20707</color>
+    <color name="toolbar">#efefef</color>
+    <color name="tabUnselected">#95a5a6</color>
+    <color name="toolbar_text">#efefef</color>
+    <color name="accent">#2789e4</color>
+    <color name="tabSelected">#efefef</color>
+    <color name="jaunegs">#f1c40f</color>
+    <color name="table_header_text">#CCFFFFFF</color>
+    <color name="table_data_row_even">#11C5CAE9</color>
+    <color name="table_data_row_odd">#33C5CAE9</color>
+</resources>
