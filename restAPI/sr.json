@@ -1,0 +1,883 @@
+{
+	"user_id" : "1",
+	"user_nom" : "Hermes",
+	"user_prenom" : "Jean",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "hermes.jean@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-06 12:00:00",
+			"date_end" : "2016-06-06 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-07 07:30:00",
+			"date_end" : "2016-06-07 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-08 18:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-09 10:00:00",
+			"date_end" : "2016-06-09 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-10 17:00:00",
+			"date_end" : "2016-06-10 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "2",
+	"user_nom" : "Cornet",
+	"user_prenom" : "Julie",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "cornet.julie@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-06 10:30:00",
+			"date_end" : "2016-06-06 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-07 18:00:00",
+			"date_end" : "2016-06-07 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-08 10:00:00",
+			"date_end" : "2016-06-08 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-09 18:00:00",
+			"date_end" : "2016-06-09 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-11 11:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-12 17:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "3",
+	"user_nom" : "Gravier",
+	"user_prenom" : "Eloise",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "gravier.eloise@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 1,
+	"user_dipsonibilities" : [{
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-06 09:30:00",
+			"date_end" : "2016-06-06 12:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-06 18:00:00",
+			"date_end" : "2016-06-06 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-08 11:00:00",
+			"date_end" : "2016-06-08 13:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-08 19:00:00",
+			"date_end" : "2016-06-08 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-10 10:00:00",
+			"date_end" : "2016-06-10 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-12 18:00:00",
+			"date_end" : "2016-06-12 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "4",
+	"user_nom" : "Poulain",
+	"user_prenom" : "Xavier",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "poulain.xavier@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 1,
+	"user_dipsonibilities" : [{
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-06 19:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-07 17:00:00",
+			"date_end" : "2016-06-07 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-08 20:00:00",
+			"date_end" : "2016-06-08 22:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-09 07:00:00",
+			"date_end" : "2016-06-09 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-12 19:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "5",
+	"user_nom" : "Bert",
+	"user_prenom" : "Roxane",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "bert.roxane@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-06 20:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-07 12:00:00",
+			"date_end" : "2016-06-07 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-08 17:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-09 12:00:00",
+			"date_end" : "2016-06-09 14:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-09 19:00:00",
+			"date_end" : "2016-06-09 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-11 13:00:00",
+			"date_end" : "2016-06-11 14:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "6",
+	"user_nom" : "Labille",
+	"user_prenom" : "Clement",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "labille.clement@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : true,
+	"staff_is_host" : false,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-08 12:00:00",
+			"date_end" : "2016-06-08 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-10 18:00:00",
+			"date_end" : "2016-06-10 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-11 08:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "1",
+	"user_nom" : "Durant",
+	"user_prenom" : "Jerome",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "durant.jerome@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-06 12:00:00",
+			"date_end" : "2016-06-06 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-07 07:30:00",
+			"date_end" : "2016-06-07 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-08 18:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-09 10:00:00",
+			"date_end" : "2016-06-09 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "1",
+			"id_user" : "1",
+			"date_start" : "2016-06-10 17:00:00",
+			"date_end" : "2016-06-10 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "2",
+	"user_nom" : "Gayet",
+	"user_prenom" : "Elise",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "gayet.elise@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-06 12:00:00",
+			"date_end" : "2016-06-06 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-07 07:30:00",
+			"date_end" : "2016-06-07 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-08 18:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-09 10:00:00",
+			"date_end" : "2016-06-09 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "2",
+			"id_user" : "2",
+			"date_start" : "2016-06-10 17:00:00",
+			"date_end" : "2016-06-10 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+} {
+	"user_id" : "3",
+	"user_nom" : "Ferraton",
+	"user_prenom" : "Julien",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "ferraton.julien@mail.com",
+	" staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-06 10:30:00",
+			"date_end" : "2016-06-06 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-07 18:00:00",
+			"date_end" : "2016-06-07 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-08 10:00:00",
+			"date_end" : "2016-06-08 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-09 18:00:00",
+			"date_end" : "2016-06-09 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-11 11:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "3",
+			"id_user" : "3",
+			"date_start" : "2016-06-12 17:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "4",
+	"user_nom" : "Gonzales",
+	"user_prenom" : "Luc",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "ferraton.julien@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-06 10:30:00",
+			"date_end" : "2016-06-06 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-07 18:00:00",
+			"date_end" : "2016-06-07 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-08 10:00:00",
+			"date_end" : "2016-06-08 12:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-09 18:00:00",
+			"date_end" : "2016-06-09 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-11 11:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "4",
+			"id_user" : "4",
+			"date_start" : "2016-06-12 17:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "5",
+	"user_nom" : "Larpin",
+	"user_prenom" : "Aude",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "larpin.aude@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-06 09:30:00",
+			"date_end" : "2016-06-06 12:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-06 18:00:00",
+			"date_end" : "2016-06-06 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-08 11:00:00",
+			"date_end" : "2016-06-08 13:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-08 19:00:00",
+			"date_end" : "2016-06-08 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-10 10:00:00",
+			"date_end" : "2016-06-10 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "5",
+			"id_user" : "5",
+			"date_start" : "2016-06-12 18:00:00",
+			"date_end" : "2016-06-12 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "6",
+	"user_nom" : "Binet",
+	"user_prenom" : "Etienne",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "binet.etienne@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-06 09:30:00",
+			"date_end" : "2016-06-06 12:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-06 18:00:00",
+			"date_end" : "2016-06-06 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-08 11:00:00",
+			"date_end" : "2016-06-08 13:30:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-08 19:00:00",
+			"date_end" : "2016-06-08 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-10 10:00:00",
+			"date_end" : "2016-06-10 13:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "6",
+			"id_user" : "6",
+			"date_start" : "2016-06-12 18:00:00",
+			"date_end" : "2016-06-12 19:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "7",
+	"user_nom" : "Mauret",
+	"user_prenom" : "Sarah",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "mauret.sarah@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 1,
+	"user_dipsonibilities" : [{
+			"id" : "7",
+			"id_user" : "7",
+			"date_start" : "2016-06-06 19:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "7",
+			"id_user" : "7",
+			"date_start" : "2016-06-07 17:00:00",
+			"date_end" : "2016-06-07 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "7",
+			"id_user" : "7",
+			"date_start" : "2016-06-08 20:00:00",
+			"date_end" : "2016-06-08 22:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "7",
+			"id_user" : "7",
+			"date_start" : "2016-06-09 07:00:00",
+			"date_end" : "2016-06-09 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "7",
+			"id_user" : "7",
+			"date_start" : "2016-06-12 19:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}{
+	"user_id" : "8",
+	"user_nom" : "Mauret",
+	"user_prenom" : "Sarah",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "mauret.sarah@mail.com",
+	"staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "8",
+			"id_user" : "8",
+			"date_start" : "2016-06-06 19:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "8",
+			"id_user" : "8",
+			"date_start" : "2016-06-07 17:00:00",
+			"date_end" : "2016-06-07 19:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "8",
+			"id_user" : "8",
+			"date_start" : "2016-06-08 20:00:00",
+			"date_end" : "2016-06-08 22:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "8",
+			"id_user" : "8",
+			"date_start" : "2016-06-09 07:00:00",
+			"date_end" : "2016-06-09 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "8",
+			"id_user" : "8",
+			"date_start" : "2016-06-12 19:00:00",
+			"date_end" : "2016-06-12 20:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+} {
+	"user_id" : "9",
+	"user_nom" : "Hemer",
+	"user_prenom" : "Edgar",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "hemer.edgar@mail.com",
+	" staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-06 20:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-07 12:00:00",
+			"date_end" : "2016-06-07 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-08 17:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-09 12:00:00",
+			"date_end" : "2016-06-09 14:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-09 19:00:00",
+			"date_end" : "2016-06-09 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "9",
+			"id_user" : "9",
+			"date_start" : "2016-06-11 13:00:00",
+			"date_end" : "2016-06-11 14:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+} {
+	"user_id" : "10",
+	"user_nom" : "Detuncq",
+	"user_prenom" : "Lucie",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "detuncq.lucie@mail.com",
+	" staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : true,
+	"staff_is_country" : false,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 1,
+	"user_dipsonibilities" : [{
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-06 20:00:00",
+			"date_end" : "2016-06-06 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-07 12:00:00",
+			"date_end" : "2016-06-07 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-08 17:00:00",
+			"date_end" : "2016-06-08 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-09 12:00:00",
+			"date_end" : "2016-06-09 14:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-09 19:00:00",
+			"date_end" : "2016-06-09 21:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "10",
+			"id_user" : "10",
+			"date_start" : "2016-06-11 13:00:00",
+			"date_end" : "2016-06-11 14:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+} {
+	"user_id" : "11",
+	"user_nom" : "Grange",
+	"user_prenom" : "Sebastien",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "grange.sebastien@mail.com",
+	" staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 0,
+	"user_dipsonibilities" : [{
+			"id" : "11",
+			"id_user" : "11",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "11",
+			"id_user" : "11",
+			"date_start" : "2016-06-08 12:00:00",
+			"date_end" : "2016-06-08 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "11",
+			"id_user" : "11",
+			"date_start" : "2016-06-10 18:00:00",
+			"date_end" : "2016-06-10 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "11",
+			"id_user" : "11",
+			"date_start" : "2016-06-11 08:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+} {
+	"user_id" : "12",
+	"user_nom" : "Francis",
+	"user_prenom" : "Alex",
+	"user_adresse" : "13 rue",
+	"user_adresse_mail" : "francis.alex@mail.com",
+	" staff_photo_url" : "",
+	"staff_photo_large_url" : "",
+	"staff_is_global" : false,
+	"staff_is_country" : true,
+	"staff_is_zone" : false,
+	"staff_is_teacher" : false,
+	"staff_is_host" : true,
+	"staff_issue_type" : 1,
+	"user_dipsonibilities" : [{
+			"id" : "12",
+			"id_user" : "12",
+			"date_start" : "2016-06-06 07:30:00",
+			"date_end" : "2016-06-06 10:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "12",
+			"id_user" : "12",
+			"date_start" : "2016-06-08 12:00:00",
+			"date_end" : "2016-06-08 15:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "12",
+			"id_user" : "12",
+			"date_start" : "2016-06-10 18:00:00",
+			"date_end" : "2016-06-10 20:00:00",
+			"classrooms_id" : [1000]
+		}, {
+			"id" : "12",
+			"id_user" : "12",
+			"date_start" : "2016-06-11 08:00:00",
+			"date_end" : "2016-06-11 13:00:00",
+			"classrooms_id" : [1000]
+		}
+	]
+}
