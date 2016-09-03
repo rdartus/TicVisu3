@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.example.richard_dt.visualisation"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+//    sourceSets {
+//        main {
+//            manifest.srcFile 'src/main/AndroidManifest.xml'
+//            java.srcDirs = ['src/main/java','.apt_generated']
+//            aidl.srcDirs = ['src/main/aidl','.apt_generated']
+//            assets.srcDirs = ['src/main/assets']
+//            res.srcDirs +=
+//                    [
+//                            'src/main/res/layout/coursfragments',
+//                            'src/main/res/layout',
+//                            'src/main/res',
+//                    ]
+//        }
+//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'library')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.wdullaer:materialdatetimepicker:2.3.0'
+    compile 'de.codecrafters.tableview:tableview:2.0.1'
+    compile "com.android.support:support-v4:23.4.0"
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.github.chenupt.android:springindicator:1.0.2@aar'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    //    compile 'com.github.alamkanak:android-week-view:1.2.6'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.daimajia.androidanimations:library:1.1.2@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile "com.daimajia.swipelayout:library:1.2.0@aar"
+    compile project(':library')
+}

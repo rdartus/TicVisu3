@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:background="@drawable/ic_keyboard_return_black"
+        android:id="@+id/btSalle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvSalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btSalle"
+        android:layout_alignStart="@id/btSalle"
+        android:layout_below="@+id/btSalle"
+        android:background="@drawable/tvborder"
+        android:text="Selection des salles :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/toolbar"
+        android:padding="10dp"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignRight="@+id/lv"
+        android:layout_alignEnd="@+id/lv"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="multipleChoice"
+        android:layout_above="@+id/goToSalles"
+        android:layout_marginBottom="50dp"
+        android:layout_alignStart="@+id/btSalle"
+        android:layout_below="@+id/tvSalle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivEquivalence1"
+        android:layout_below="@+id/tvSalle"
+        android:layout_toRightOf="@+id/lv"
+        android:layout_toEndOf="@+id/lv"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/ic_equivalent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_selectFrag"
+        android:background="@drawable/border"
+        android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignBottom="@+id/lv">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/goToSalles"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rechercher_ces_salles"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/recycler_view_selectFrag"
+        android:layout_alignStart="@+id/recycler_view_selectFrag"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/toolbar"
+        android:background="@drawable/tvborder"
+        android:text="@string/selectedClassParameters"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/tvSalle"
+        android:layout_toEndOf="@id/ivEquivalence1"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/tvSalle"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/ivEquivalence1" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/toolbar"
+        android:background="@drawable/tvborder"
+        android:text="Selection du Staff :"
+        android:id="@+id/textView8"
+        android:padding="10dp"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/LvprofSelect"
+        android:layout_alignStart="@+id/LvprofSelect"
+        android:layout_above="@+id/LvprofSelect"
+        android:layout_alignRight="@+id/LvprofSelect"
+        android:layout_alignEnd="@+id/LvprofSelect"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LvprofSelect"
+        android:layout_alignLeft="@+id/linearLayout5"
+        android:layout_alignRight="@+id/linearLayout5"
+        android:layout_below="@+id/textView6"
+        android:layout_above="@+id/linearLayout5"
+        android:background="@drawable/border"/>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginLeft="30dp"
+        android:layout_alignBottom="@+id/lv">
+
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.editText"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_weight="7"
+            android:id="@+id/etResearchBar" />
+
+        <Button
+            android:layout_width="42dp"
+            android:layout_height="51dp"
+            android:background="@drawable/search"
+            android:id="@+id/Call" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/liste_d_erreurs"
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/Blisterreur"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_alignLeft="@+id/LvprofSelect"
+        android:layout_alignTop="@+id/goToSalles"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allez_aux_fiches"
+        android:theme="@style/AppTheme.Button"
+        android:id="@+id/LaunchProfFrag"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/lv"
+        android:layout_alignLeft="@+id/LvprofSelect"
+        android:layout_alignStart="@+id/LvprofSelect"
+        android:layout_marginLeft="169dp"
+        android:layout_marginStart="169dp" />
+
+</RelativeLayout>

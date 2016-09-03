@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLocalisationSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tool:text="Salle"
+
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/tvIntensitySelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:tag="Hover"
+                tool:text="intensité"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/tvStaffSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                tool:text="staff"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
